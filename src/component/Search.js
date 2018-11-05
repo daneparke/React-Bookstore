@@ -5,7 +5,7 @@ const Search = (props) => {
         <>
             <form className='container' onSubmit={props.filter}>
                 <div className="form-group row">
-                    <label style={{ display: 'flex', alignSelf: 'center', justifyContent: 'flex-end' }} className='col-2' for="exampleFormControlInput1">Search for Books</label>
+                    <label style={{ display: 'flex', alignSelf: 'center', justifyContent: 'flex-end' }} className='col-2'>Search for Books</label>
                     <input className='col-9'
                         onChange={(e) => props.filter(e)}
                         style={{ width: '40vw' }}

@@ -16,7 +16,7 @@ const Cart = (props) => {
                 <div className='yourCart'>
                     {cartItems}
                 </div>
-                <h2 class='row totalRow'>Total:$<h2>{props.total}</h2></h2>
+                <h2 className='row totalRow'>Total:${props.total}</h2>
             </div>
         </>
     )
